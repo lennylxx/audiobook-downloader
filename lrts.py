@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-from bs4 import BeautifulSoup
+
 import requests
-from threading import Thread
 import html
 import json
 import os
 import sys
+from bs4 import BeautifulSoup
+from threading import Thread
 
 
 def main():
@@ -110,3 +111,4 @@ def getPlayList(resourceType, resourceId, sections='', flow=''):
 
 if __name__ == '__main__':
     main()
+
